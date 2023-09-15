@@ -18,6 +18,9 @@ export class ContentComponent implements OnInit {
   @Input()
   contentDescription:string ="";
 
+  @Input()
+  linkContent:string ="";
+
   private id:string | null= "0";
 
   constructor(
@@ -39,6 +42,8 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title;
     this.contentDescription = result.description;
     this.photoCover = result.photoCover;
+    this.linkContent = result.linkContent;
+    
     
   }
 

@@ -11,8 +11,15 @@
 
 }
 
-.content__cover {
-    
+.url-materia-original {
+    padding: 30px;
+}
+
+.url-materia-original > a {
+    color: black;
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
 .content__cover > img {
@@ -25,6 +32,15 @@
 
 .content__description {
     margin-top: 15px;
+}
+
+
+.content__description > a{
+    color: red;
+    font-weight: bolder;
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .content__description > p {
