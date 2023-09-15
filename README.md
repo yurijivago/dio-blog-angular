@@ -1,27 +1,14 @@
 # DioBlogAngular
+Projeto desenvolvido na atividade "Criando um Blog com Angular" onde foi implementado um blog utilizando o Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Durante todo o processo foram incluídas as funcionalidades dinâmicas de rotas, componetização e preenchimento dos dados dinamicamente utilizando de um provedor de dados fictícios (dataFake).
 
-## Development server
+Adicionalmente ao que foi apresentado nas aulas, foram adicionadas algumas funções e estilizações como:
+ - estilização do botão "<<< Voltar";
+ - inclusão de um novo campo na base de dados mokaca para armazenar um link para a matéria completa referenciada nos cards da aplicação;
+ - inclusão de um botão estilizado para possibilitar ao usuário, mediante ação do mesmo, abrir em nova aba a matéria completa referenciada na página de detalhamento do card.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ ## Melhorias Futuras
+ Como o intuito das aulas foi apresentar os conceitos fundamentas do Angular, utilizando o cenário de um Blog para tal, a implementação realizada foi feita levando em conta apenas o layout no âmbito de um navegador padrão de um computado/notebook.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ Como melhoria desse projeto, há a possibilidade de tratar toda a responsividade do projeto para diferentes tipos de telas. Para isso, uma possibilidade é utilizar de Media queries, com estilos próprios para cada breakpoint padrão utilizado no mercado.
